@@ -1,0 +1,6 @@
+[submodule "leihs-sync"]
+	path = leihs-sync
+	url = https://github.com/functional-swiss/leihs-sync.git
+[submodule "leihs"]
+	path = leihs
+	url = https://github.com/leihs/leihs
