@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+set -eux
+
+INVENTORY_DIR="$(cd -- "$(dirname "${BASH_SOURCE}")" ; cd .. > /dev/null 2>&1 && pwd -P)"
+AGW_DIR=$INVENTORY_DIR/agw-auth
+LEIHS_DIR=$INVENTORY_DIR/leihs
+
+${LEIHS_DIR}/deploy/bin/ansible-playbook \
+  -i ${INVENTORY_DIR}/hosts.yml \
+  -l prod \
+  ${AGW_DIR}/deploy/deploy_play.yml $@

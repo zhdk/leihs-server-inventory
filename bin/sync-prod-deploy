@@ -4,7 +4,6 @@ set -eux
 
 INVENTORY_DIR="$(cd -- "$(dirname "${BASH_SOURCE}")" ; cd .. > /dev/null 2>&1 && pwd -P)"
 LEIHS_DIR=$INVENTORY_DIR/leihs
-LEGACY_INVENTORY_DIR=${INVENTORY_DIR}/leihs/zhdk-inventory
 LEIHS_SYNC_NAME='zapi'
 
 HOSTS_FILE=prod-hosts-v5
@@ -13,6 +12,6 @@ LEIHS_SYNC_NAME='zapi'
 cd $INVENTORY_DIR/leihs-sync
 
 ${INVENTORY_DIR}/leihs/deploy/bin/ansible-playbook \
-  -i ${LEGACY_INVENTORY_DIR}/${HOSTS_FILE} \
+  -i ${INVENTORY_DIR}/hosts.yml \
   -e "leihs_sync_name=${LEIHS_SYNC_NAME}" \
   deploy/deploy_play.yml $@
