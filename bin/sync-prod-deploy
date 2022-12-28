@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-set -eux
+set -euo pipefail
 
 INVENTORY_DIR="$(cd -- "$(dirname "${BASH_SOURCE}")" ; cd .. > /dev/null 2>&1 && pwd -P)"
 LEIHS_DIR=$INVENTORY_DIR/leihs
@@ -15,3 +14,5 @@ ${INVENTORY_DIR}/leihs/deploy/bin/ansible-playbook \
   -i ${INVENTORY_DIR}/hosts.yml \
   -e "leihs_sync_name=${LEIHS_SYNC_NAME}" \
   deploy/deploy_play.yml $@
+
+# vi: ft=sh

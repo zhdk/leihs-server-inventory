@@ -1,0 +1,21 @@
+deploy-to-prod:
+  include: cider-ci/task-components/deploy-defaults.yml
+  name: Deploy to zhdk-leihs-prod.ruby.zhdk.ch
+  depends_on:
+    deploy to staging:
+      type: job
+      job_key: deploy-to-staging
+      states: [passed]
+  context:
+    task_defaults:
+      exclusive_global_resources:
+        "zhdk-leihs-prod.ruby.zhdk.ch": true
+      environment_variables:
+        DEPLOY_TARGET_INVENTORY: "hosts.yml --limit prod"
+        STATUS_PAGE_URL: "https://ci.zhdk.ch/cider-ci/ui/workspace/trials/{{CIDER_CI_TRIAL_ID}}"
+        LOCAL_CACHE_DIR: "/tmp/leihs-build-cache" # build cache same as for the tests
+    tasks:
+      deploy:
+        scripts:
+          deploy:
+            body: ./bin/leihs-prod-deploy --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa'
