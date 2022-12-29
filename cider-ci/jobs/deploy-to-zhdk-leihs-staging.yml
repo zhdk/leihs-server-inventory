@@ -1,6 +1,13 @@
 deploy-to-staging:
   include: cider-ci/task-components/deploy-defaults.yml
   name: Deploy to zhdk-leihs-staging.ruby.zhdk.ch
+  run_when:
+    "deploy at 17:00 UTC on branch deploy":
+      type: cron
+      value: "00 17 * * *"
+      branch_include_match: ^deploy$
+# rerun disabled in general, frequent deploys might be anoying
+#     rerun: true
   context:
     task_defaults:
       exclusive_global_resources:

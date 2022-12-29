@@ -6,6 +6,11 @@ deploy-to-prod:
       type: job
       job_key: deploy-to-staging
       states: [passed]
+  run_when:
+    "deploy at 18:00 UTC on branch deploy":
+      type: cron
+      value: "00 18 * * *"
+      branch_include_match: ^deploy$
   context:
     task_defaults:
       exclusive_global_resources:
