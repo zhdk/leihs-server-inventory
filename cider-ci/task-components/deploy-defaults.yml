@@ -58,7 +58,7 @@ context:
             asdf install nodejs
 
         deploy:
-          timeout: 40 minutes
+          timeout: 60 minutes
           start_when:
             unlock_passed:
               script_key: unlock
