@@ -18,6 +18,7 @@ deploy-to-staging:
         LOCAL_CACHE_DIR: "/tmp/leihs-build-cache" # build cache same as for the tests
     tasks:
       deploy:
+        aggregate_state: satisfy-last 
         scripts:
           deploy:
             body: ./bin/leihs-staging-deploy --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa'
