@@ -1,5 +1,6 @@
 jobs:
   include:
-    - cider-ci/jobs/deploy-to-zhdk-leihs-staging.yml
-    - cider-ci/jobs/deploy-to-zhdk-leihs-prod.yml
-
+    - cider-ci/jobs/demo-leihs-deploy.yml
+    - cider-ci/jobs/demo-database-reset.yml
+    - cider-ci/jobs/prod-leihs-deploy.yml
+    - cider-ci/jobs/staging-leihs-deploy.yml

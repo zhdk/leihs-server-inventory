@@ -1,10 +1,10 @@
-deploy-to-prod:
-  include: cider-ci/task-components/deploy-defaults.yml
+prod-leihs-deploy:
+  include: cider-ci/context-components/deploy-defaults.yml
   name: Deploy to zhdk-leihs-prod.ruby.zhdk.ch
   depends_on:
     deploy to staging:
       type: job
-      job_key: deploy-to-staging
+      job_key: staging-leihs-deploy
       states: [passed]
   run_when:
     "deploy at 18:00 UTC on branch deploy":
@@ -23,4 +23,4 @@ deploy-to-prod:
       deploy:
         scripts:
           deploy:
-            body: ./bin/leihs-prod-deploy --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa'
+            body: ./bin/prod-leihs-deploy --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa'

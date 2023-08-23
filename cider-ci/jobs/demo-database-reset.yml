@@ -1,0 +1,16 @@
+demo-database-reset:
+  include: cider-ci/context-components/deploy-defaults.yml
+  name: Reset database of zhdk-leihs-demo.ruby.zhdk.ch
+  context:
+    task_defaults:
+      exclusive_global_resources:
+        "zhdk-leihs-demo.ruby.zhdk.ch": true
+      environment_variables:
+        DEPLOY_TARGET_INVENTORY: "hosts.yml --limit demo"
+        LOCAL_CACHE_DIR: "/tmp/leihs-build-cache" # build cache same as for the tests
+    tasks:
+      deploy:
+        aggregate_state: satisfy-last 
+        scripts:
+          deploy:
+            body: ./bin/demo-database-reset --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa'

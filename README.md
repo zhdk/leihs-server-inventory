@@ -2,7 +2,7 @@ ZHdK Leihs Server-Inventory
 ===========================
 
 
-Leihs Prod Deploy
+Prod Leihs Deploy
 -----------------
 * upgrade the `leihs` submodule,
 * adjust the configuration if necessary, and
@@ -10,8 +10,8 @@ Leihs Prod Deploy
 
 ### Manual Deploy
 
-* run `./bin/leihs-staging-deploy`, after success:
-* run `./bin/leihs-prod-deploy`
+* run `./bin/staging-leihs-deploy`, after success:
+* run `./bin/prod-leihs-deploy`
 
 ### CI Deploy
 
@@ -24,13 +24,13 @@ ZAPI-Sync Deploy
 
 * upgrade the `leihs-sync` submodule,
 * adjust the configuration if necessary, and
-* run `./bin/sync-prod-deploy`
+* run `./bin/prod-sync-deploy`
 
 AGW-Auth Deploy
 ---------------
 
 * upgrade the `agw-auth` submodule,
 * adjust the configuration if necessary, and
-* run `./bin/agw-auth-prod-deploy`
+* run `./bin/prod-agw-auth-deploy`
 
 

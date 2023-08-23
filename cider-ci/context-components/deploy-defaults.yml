@@ -17,7 +17,6 @@ context:
           include_match: ^.*$
 
       traits:
-        Docker Engine: true
         asdf: true
         git-crypt: true
         python3: true

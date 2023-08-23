@@ -1,0 +1,88 @@
+priority: 2
+
+context:
+  task_defaults:
+    environment_variables:
+      INVENTORY_DIR: "{{CIDER_CI_WORKING_DIR}}"
+      LEIHS_DIR: "{{INVENTORY_DIR}}/leihs"
+      OLD_ZHDK_INVENTORY_DIR: "{{LEIHS_DIR}}/zhdk-inventory"
+      DEPLOY_DIR: "{{LEIHS_DIR}}/deploy"
+      LOCAL_CACHE_DIR: "/tmp/leihs-build-cache" # build cache same as for the tests
+      STATUS_PAGE_URL: "" # should only be set for dev servers
+
+  tasks:
+    reset:
+      git_options:
+        submodules:
+          include_match: ^.*$
+
+      traits:
+        asdf: true
+        git-crypt: true
+        python3: true
+        zhdk-leihs-deploy: true
+
+      max_trials: 1
+
+      trial_attachments:
+        server_log:
+          include_match: ".*server_log.*"
+          content_type: text/plain
+
+      scripts:
+        unlock:
+          body: |
+            #!/usr/bin/env bash
+            set -euo pipefail
+            cd ${OLD_ZHDK_INVENTORY_DIR}
+            git crypt unlock
+
+        install-ruby:
+          exclusive_executor_resource: asdf-ruby
+          timeout: 20 Minutes
+          body: |
+            #!/usr/bin/env bash
+            set -euo pipefail
+            cd ${INVENTORY_DIR}
+            asdf install ruby
+            cd ${LEIHS_DIR}
+            asdf install ruby
+
+        install-nodejs:
+          exclusive_executor_resource: asdf-nodejs
+          timeout: 20 Minutes
+          body: |
+            #!/usr/bin/env bash
+            set -euo pipefail
+            asdf install nodejs
+
+        reset:
+          timeout: 150 minutes
+          start_when:
+            unlock_passed:
+              script_key: unlock
+              states: [passed]
+            ruby-installed:
+              script_key: install-ruby
+            nodejs-installed:
+              script_key: install-nodejs
+
+        attach-server-log:
+          ignore_state: yes
+          ignore_abort: yes
+          start_when:
+            after reset:
+              script_key: reset
+              states: [passed, aborted, defective, failed]
+          body: |
+            #!/usr/bin/env bash
+            set -euo pipefail
+            export ANSIBLE_HOST_KEY_CHECKING=False
+            ${DEPLOY_DIR}/bin/ansible-playbook ${DEPLOY_DIR}/get-server-log_play.yml \
+              --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa' \
+              -i ${INVENTORY_DIR}/${DEPLOY_TARGET_INVENTORY}
+
+            echo ''; echo ''; echo '';
+            echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+            echo 'Last 100 lines of server log can be found in Trial Attachments!'
+            echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'

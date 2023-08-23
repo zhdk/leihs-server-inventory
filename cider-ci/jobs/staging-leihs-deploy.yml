@@ -1,5 +1,5 @@
-deploy-to-staging:
-  include: cider-ci/task-components/deploy-defaults.yml
+staging-leihs-deploy:
+  include: cider-ci/context-components/deploy-defaults.yml
   name: Deploy to zhdk-leihs-staging.ruby.zhdk.ch
   run_when:
     "deploy at 17:00 UTC on branch deploy":
@@ -21,4 +21,4 @@ deploy-to-staging:
         aggregate_state: satisfy-last 
         scripts:
           deploy:
-            body: ./bin/leihs-staging-deploy --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa'
+            body: ./bin/stagin-leihs-deploy
