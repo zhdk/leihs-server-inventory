@@ -5,14 +5,13 @@ INVENTORY_DIR="$(cd -- "$(dirname "${BASH_SOURCE}")" ; cd .. > /dev/null 2>&1 &&
 LEIHS_DIR=$INVENTORY_DIR/leihs
 LEIHS_SYNC_NAME='zapi'
 
-HOSTS_FILE=prod-hosts-v5
-LEIHS_SYNC_NAME='zapi'
 
 cd $INVENTORY_DIR/leihs-sync
 
 ${INVENTORY_DIR}/leihs/deploy/bin/ansible-playbook \
   -i ${INVENTORY_DIR}/hosts.yml \
   -e "leihs_sync_name=${LEIHS_SYNC_NAME}" \
-  deploy/deploy_play.yml $@
+  -l prod \
+  ${INVENTORY_DIR}/leihs-sync/deploy/deploy_play.yml $@
 
 # vi: ft=sh
