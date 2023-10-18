@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ENV=${ENV:-""}
+SCRIPT=${SCRIPT:-""}
+
+if [[ -z "$ENV" ]]; then
+  echo "ENV must be set to test, staging or prod."
+  exit 1
+fi
+
+if [[ -z "$SCRIPT" ]]; then
+  echo "SCRIPT must be set. Use relative or absolute path to the file."
+  exit 1
+else
+  SCRIPT="$(realpath $SCRIPT)"
+fi
+
+if test $ENV = "test"; then
+  INVENTORY=$(realpath ./leihs/zhdk-inventory/test-hosts)
+  LIMIT="zhdk"
+elif test $ENV = "staging"; then
+  INVENTORY=$(realpath ./hosts.yml)
+  LIMIT="staging"
+elif test $ENV = "prod"; then
+  INVENTORY=$(realpath ./hosts.yml)
+  LIMIT="prod"
+else
+  echo "Unsupported ENV. Must be one of: test, staging, prod."
+  exit 1
+fi
+
+echo "ENV: $ENV"
+echo "SCRIPT: $SCRIPT"
+echo "INVENTORY: $INVENTORY"
+echo "LIMIT: $LIMIT"
+echo ""
+
+./leihs/deploy/bin/ansible-playbook \
+  $(realpath ./leihs/deploy/execute-script_play.yml) \
+  -i $INVENTORY \
+  -l $LIMIT \
+  -e "script_file_path=$SCRIPT" \
+
+echo "DONE. See log output at leihs/deploy/tmp/$LIMIT."
+
+# # vi: ft=sh
