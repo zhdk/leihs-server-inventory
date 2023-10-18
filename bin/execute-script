@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ENV=${ENV:-""}
+TARGET=${TARGET:-""}
 SCRIPT=${SCRIPT:-""}
 
-if [[ -z "$ENV" ]]; then
-  echo "ENV must be set to test, staging or prod."
+if [[ -z "$TARGET" ]]; then
+  echo "TARGET must be set to test, staging or prod."
   exit 1
 fi
 
@@ -16,21 +16,21 @@ else
   SCRIPT="$(realpath $SCRIPT)"
 fi
 
-if test $ENV = "test"; then
+if test $TARGET = "test"; then
   INVENTORY=$(realpath ./leihs/zhdk-inventory/test-hosts)
   LIMIT="zhdk"
-elif test $ENV = "staging"; then
+elif test $TARGET = "staging"; then
   INVENTORY=$(realpath ./hosts.yml)
   LIMIT="staging"
-elif test $ENV = "prod"; then
+elif test $TARGET = "prod"; then
   INVENTORY=$(realpath ./hosts.yml)
   LIMIT="prod"
 else
-  echo "Unsupported ENV. Must be one of: test, staging, prod."
+  echo "Unsupported TARGET. Must be one of: test, staging, prod."
   exit 1
 fi
 
-echo "ENV: $ENV"
+echo "TARGET: $TARGET"
 echo "SCRIPT: $SCRIPT"
 echo "INVENTORY: $INVENTORY"
 echo "LIMIT: $LIMIT"
