@@ -18,7 +18,7 @@ staging-leihs-deploy:
         LOCAL_CACHE_DIR: "/tmp/leihs-build-cache" # build cache same as for the tests
     tasks:
       deploy:
-        aggregate_state: satisfy-last 
+        aggregate_state: satisfy-last
         scripts:
           deploy:
-            body: ./bin/stagin-leihs-deploy
+            body: ./bin/staging-leihs-deploy
