@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+set -x
+
+INVENTORY_DIR="$(cd -- "$(dirname "${BASH_SOURCE}")" ; cd .. > /dev/null 2>&1 && pwd -P)"
+LEIHS_DIR=$INVENTORY_DIR/leihs
+AUTH_NAME=zhdkaad
+ANSIBLE_LIMIT='staging'
+
+cd $INVENTORY_DIR
+
+${LEIHS_DIR}/deploy/bin/ansible-playbook \
+  -i ${INVENTORY_DIR}/hosts.yml \
+  -l ${ANSIBLE_LIMIT} \
+  -e "leihs_auth_name=${AUTH_NAME}" \
+  ${INVENTORY_DIR}/leihs-aad-auth/deploy/deploy_play.yml "$@"

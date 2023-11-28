@@ -7,3 +7,6 @@
 [submodule "agw-auth"]
 	path = agw-auth
 	url = https://github.com/zhdk/leihs-zhdk-agw-auth-system.git
+[submodule "leihs-aad-auth"]
+	path = leihs-aad-auth
+	url = https://github.com/functional-swiss/leihs-aad-auth
