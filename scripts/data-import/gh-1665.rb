@@ -39,7 +39,9 @@ module ItemKeys
   INVENTORY_CODE = "inventory_code"
 end
 
-def to_bool(str)
+def to_bool(str, row)
+  puts "row: >#{row}<"
+  puts "str: >#{str}<"
   case str.downcase
   when 'true', 't', 'yes', 'y', '1'
     true
@@ -87,7 +89,7 @@ def gen_item_attributes(row)
   end
 
   owner_name = row[ItemKeys::OWNER]
-  is_retired = to_bool(row[ItemKeys::RETIRED])
+  is_retired = to_bool(row[ItemKeys::RETIRED], row)
   responsible_department_name = row[ItemKeys::RESPONSIBLE_DEPARTMENT]
 
   building_name = row[ItemKeys::BUILDING]
@@ -104,7 +106,7 @@ def gen_item_attributes(row)
     note: "#{PREFIX_WITH_DASH_FOR_TEST_ENTRIES}#{row[ItemKeys::NOTE]}",
     inventory_code: Item.proposed_inventory_code(responsible_department_name_rec, :lowest),
     serial_number: row[ItemKeys::SERIAL_NUMBER],
-    is_broken: to_bool(row[ItemKeys::IS_BROKEN]),
+    is_broken: to_bool(row[ItemKeys::IS_BROKEN], row),
     owner_id: owner_rec.id,
     inventory_pool_id: responsible_department_name_rec.id,
     room_id: room_rec.id,
@@ -145,8 +147,8 @@ def import_models_and_items
   ActiveRecord::Base.transaction do
     error_map = {}
 
-    # import_models_from_csv(error_map)
-    import_items_from_csv(error_map)
+    import_models_from_csv(error_map)
+    # import_items_from_csv(error_map)
 
     if error_map.length > 0 then
       log_errors_and_rollback(error_map)
