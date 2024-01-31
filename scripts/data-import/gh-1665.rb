@@ -1,7 +1,7 @@
 # require_relative './parse_csv.rb'
 # require_relative './logger.rb'
-require_relative('shared/shared/logger')
-require_relative('shared/shared/parse_csv')
+require_relative('shared/logger')
+require_relative('shared/parse_csv')
 require 'date'
 
 # TODO: remove this
@@ -9,8 +9,8 @@ require 'date'
 # https://github.com/leihs/leihs/issues/1665
 
 # FYI: comma separated values
-IMPORT_FILE_MODELS = "model-import.csv"
-IMPORT_FILE_ITEMS = "items-import.csv"
+IMPORT_FILE_MODELS = ENV['IMPORT_FILE'] # "model-import.csv"
+IMPORT_FILE_ITEMS = ENV['IMPORT_FILE'] # "items-import.csv"
 
 # set this from "test-" to "" for production/stage
 PREFIX_WITH_DASH_FOR_TEST_ENTRIES = "test-"
@@ -145,8 +145,8 @@ def import_models_and_items
   ActiveRecord::Base.transaction do
     error_map = {}
 
-    import_models_from_csv(error_map)
-    # import_items_from_csv(error_map)
+    # import_models_from_csv(error_map)
+    import_items_from_csv(error_map)
 
     if error_map.length > 0 then
       log_errors_and_rollback(error_map)

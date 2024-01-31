@@ -3,7 +3,7 @@ set -euo pipefail
 
 TARGET=${TARGET:-""}
 SCRIPT=${SCRIPT:-""}
-IMPORT=${IMPORT:-""}
+IMPORT=$(realpath $IMPORT)
 
 if [[ -z "$TARGET" ]]; then
   echo "TARGET must be set to test, staging or prod."
