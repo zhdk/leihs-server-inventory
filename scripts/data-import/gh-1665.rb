@@ -147,8 +147,9 @@ def import_models_and_items
   ActiveRecord::Base.transaction do
     error_map = {}
 
+    # FIXME: has to be done separately
     import_models_from_csv(error_map)
-    # import_items_from_csv(error_map)
+    import_items_from_csv(error_map)
 
     if error_map.length > 0 then
       log_errors_and_rollback(error_map)
