@@ -3,6 +3,7 @@ set -euo pipefail
 
 TARGET=${TARGET:-""}
 SCRIPT=${SCRIPT:-""}
+IMPORT=${IMPORT:-""}
 
 if [[ -z "$TARGET" ]]; then
   echo "TARGET must be set to test, staging or prod."
@@ -32,6 +33,7 @@ fi
 
 echo "TARGET: $TARGET"
 echo "SCRIPT: $SCRIPT"
+echo "IMPORT: $IMPORT"
 echo "INVENTORY: $INVENTORY"
 echo "LIMIT: $LIMIT"
 echo ""
@@ -41,6 +43,8 @@ echo ""
   -i $INVENTORY \
   -l $LIMIT \
   -e "script_file_path=$SCRIPT" \
+  -e "import_file_path=$IMPORT"
+
 
 echo "DONE. See log output at leihs/deploy/tmp/$LIMIT."
 

@@ -1,7 +1,7 @@
 # require_relative './parse_csv.rb'
 # require_relative './logger.rb'
-require_relative('shared/logger')
-require_relative('shared/parse_csv')
+require_relative('shared/shared/logger')
+require_relative('shared/shared/parse_csv')
 require 'date'
 
 # TODO: remove this
@@ -146,7 +146,7 @@ def import_models_and_items
     error_map = {}
 
     import_models_from_csv(error_map)
-    import_items_from_csv(error_map)
+    # import_items_from_csv(error_map)
 
     if error_map.length > 0 then
       log_errors_and_rollback(error_map)
