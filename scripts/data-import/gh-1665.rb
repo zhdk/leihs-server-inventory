@@ -1,5 +1,7 @@
-require_relative './parse_csv.rb'
-require_relative './logger.rb'
+# require_relative './parse_csv.rb'
+# require_relative './logger.rb'
+require_relative('shared/logger')
+require_relative('shared/parse_csv')
 require 'date'
 
 # TODO: remove this
