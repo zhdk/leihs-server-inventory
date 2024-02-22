@@ -1,0 +1,29 @@
+model,supplier,technical_detail,description
+LES1532A,Black Box,LES1532A,Serial Console Server
+APIC-SERVER-M3,Cisco,APIC-M3,APIC Server M3
+Catalyst 2960-48TT-L,Cisco,WS-C2960-48TT-L,48 x 1000BaseT
+Catalyst 2960CPD,Cisco,,"8 x 1000BaseT, Fanless, PoE-Powered"
+Catalyst 2960G,Cisco,,48 x 1000BaseT
+Catalyst 2960PD,Cisco,,"8 x 100BaseT, Fanless, PoE-Powered"
+Catalyst 2960S-24TS-L,Cisco,WS-C2960S-24TS-L,24 x 1000BaseT
+Catalyst 3560CG,Cisco,,"8 x 1000BaseT, Fanless"
+Catalyst 3750X-48P-S,Cisco,WS-C3750X-48P-S,"48 x 1000BaseT, 2xSFP+, PoE+"
+Catalyst 3850-12X48U-L,Cisco,WS-C3850-12X48U-L,EoL
+Catalyst 6816-X,Cisco,C6816-X-LE,16xSFP+
+Catalyst 9120AXI-E,Cisco,C9120AXI-E,Lightweight Access Point Wifi 6
+Catalyst 9130AXI-E,Cisco,C9130AXI-E,Lightweight Access Point Wifi 6
+Catalyst 9200CX-12P,Cisco,C9200CX-12P-2X2G,"12 x 1000BaseT, Fanless, PoE+"
+Catalyst 9200CX-12T,Cisco,C9200CX-12T-2X2G,"12 x 1000BaseT, Fanless, PoE-Powered"
+Catalyst 9300-24UX,Cisco,C9300-24UX,"24 x 1000BaseT, 2xSFP28, PoE+"
+Catalyst 9300-24UXB,Cisco,,"24 x 1000BaseT, 2xSFP28, PoE+"
+Catalyst 9300-48UXM,Cisco,C9300-48UXM,"48 x 1000BaseT, 2xSFP28, PoE+"
+Catalyst 9500-24Q,Cisco,C9500-24Q,24xQSFP+
+Catalyst 9500-48,Cisco,,"48xSFP28,2xQSFP+"
+Catalyst 9800-40-K9,Cisco,C9800-40-K9,Cisco Wireless Controller
+ISE-VM-K9,Cisco,,ISE Virtual Appliance
+ISR2921,Cisco,ISR2921/K9,Cisco ISR2921
+Nexus 5548UP,Cisco,N5K-C5548UP,EoL
+Nexus 93180YC-FX,Cisco,N9K-C93180YC-FX,"48xSFP28,2xQSFP28"
+Nexus 9348GC-FXP,Cisco,N9K-C9348GC-FXP,"48x1000BaseT,2xQSFP28"
+PA-5410,Palo Alto Networks,,Firewall
+PA-5430,Palo Alto Networks,,Firewall
