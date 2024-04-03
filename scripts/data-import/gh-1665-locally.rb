@@ -15,16 +15,24 @@ require 'date'
 # 2. Script runs once - commits only if all data are correct (all or nothing)
 #  a) errors will be gathered and logged
 
-# #  test-server: absolute path
+############################################
+
+##  test-server: absolute path -------------
 # IMPORT_FILE_MODELS = "/tmp/leihs-scripts/model-import.csv"
 # IMPORT_FILE_ITEMS = "/tmp/leihs-scripts/items-import.csv"
 
+##  local setup ----------------------------
+##  Move to `leihs/legacy/data-import` and run script by `bundle exec rails runner data-import/gh-1665-locally.rb`
 current_path = Dir.pwd
 puts "Current Path is: #{current_path}"
+current_path = "#{current_path}/data-import"
+puts "Files Path is: #{current_path}"
 
 #  local setup
-IMPORT_FILE_MODELS = "model-import.csv"
-IMPORT_FILE_ITEMS = "items-import.csv"
+IMPORT_FILE_MODELS = "#{current_path}/model-import.csv"
+IMPORT_FILE_ITEMS = "#{current_path}/items-import.csv"
+
+############################################
 
 # set this from "test-" to "" for production/stage
 PREFIX_WITH_DASH_FOR_TEST_ENTRIES = "test-"
