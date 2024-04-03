@@ -21,7 +21,7 @@ class CSVParser
       count_row!
       block.call(row)
     end
-    CSV.parse(@file_contents, headers: :first_row, &enhanced_block)
+    CSV.parse(@file_contents, headers: :first_row, col_sep: ';', &enhanced_block)
     log("#{@done_counter} out of #{@to_do_counter} done", :info, true)
     reset_counters!
   end

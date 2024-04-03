@@ -15,16 +15,22 @@ require 'date'
 # 2. Script runs once - commits only if all data are correct (all or nothing)
 #  a) errors will be gathered and logged
 
+# ------------------------------------------------------------------
+
 # #  test-server: absolute path
-# IMPORT_FILE_MODELS = "/tmp/leihs-scripts/model-import.csv"
-# IMPORT_FILE_ITEMS = "/tmp/leihs-scripts/items-import.csv"
+IMPORT_FILE_MODELS = "/tmp/leihs-scripts/models-import.csv"
+IMPORT_FILE_ITEMS = "/tmp/leihs-scripts/items-import.csv"
 
-current_path = Dir.pwd
-puts "Current Path is: #{current_path}"
+# current_path = Dir.pwd
+# puts "Current Path is: #{current_path}"
+# current_path = "#{current_path}/data-import"
+# puts "Files Path is: #{current_path}"
+#
+# #  local setup
+# IMPORT_FILE_MODELS = "#{current_path}/models-import.csv"
+# IMPORT_FILE_ITEMS = "#{current_path}/items-import.csv"
 
-#  local setup
-IMPORT_FILE_MODELS = "model-import.csv"
-IMPORT_FILE_ITEMS = "items-import.csv"
+# ------------------------------------------------------------------
 
 # set this from "test-" to "" for production/stage
 PREFIX_WITH_DASH_FOR_TEST_ENTRIES = "test-"
@@ -109,14 +115,56 @@ def gen_item_attributes(row)
   responsible_department_name = row[ItemKeys::RESPONSIBLE_DEPARTMENT]
 
   building_name = row[ItemKeys::BUILDING]
-  building_code_extracted, building_name_extracted = extract_building_name_and_code(building_name)
+  # building_code_extracted, building_name_extracted = extract_building_name_and_code(building_name)
 
   room_name = row[ItemKeys::ROOM]
-  model_rec = Model.find_by!(product: model_name)
-  owner_rec = InventoryPool.find_by!(name: owner_name)
-  responsible_department_name_rec = InventoryPool.find_by!(name: responsible_department_name)
-  building_rec = Building.find_by!(name: building_name_extracted, code: building_code_extracted)
-  room_rec = Room.find_by!(building_id: building_rec.id, name: room_name)
+  puts ">> gen_item_attributes2 product: #{model_name}"
+
+  model_rec = nil
+  begin
+    model_rec = Model.find_by!(product: model_name) # here
+  rescue => e
+    raise "#{model_name}: Model not found by model_name! model.name='#{model_name}' not found!"
+  end
+
+  puts ">> gen_item_attributes3"
+  # owner_rec = InventoryPool.find_by!(name: owner_name)
+  # puts ">> gen_item_attributes4"
+
+  owner_rec = nil
+  begin
+    owner_rec = InventoryPool.find_by!(name: owner_name)
+
+  rescue => e
+    raise "#{owner_name}: No active Owner-InventoryPool found by name! InventoryPool.name='#{owner_name}' not found!"
+  end
+
+  # with code
+  # responsible_department_name_rec = InventoryPool.find_by!(name: responsible_department_name)
+  # building_rec = Building.find_by!(name: building_name_extracted, code: building_code_extracted)
+
+  responsible_department_name_rec = nil
+  begin
+    responsible_department_name_rec = InventoryPool.find_by!(name: responsible_department_name)
+
+  rescue => e
+    # raise "InventoryPool not found by name! InventoryPool/#{model_name} not found!" [:test "message"]
+    raise "#{responsible_department_name}: No active InventoryPool found by name! InventoryPool.name='#{responsible_department_name}' not found!"
+  end
+
+  building_rec = nil
+  begin
+    building_rec = Building.find_by!(name: building_name)
+  rescue => e
+    raise "#{building_name}: Building not found by name! Building.name='{building_name}' not found!"
+  end
+
+  room_rec = nil
+  begin
+    room_rec = Room.find_by!(building_id: building_rec.id, name: room_name)
+  rescue => e
+    raise "#{room_name}: Room not found by name! Room.building_id='#{building_rec.id}', name='#{room_name}' not found!"
+  end
 
   item_attributes = {
     note: "#{PREFIX_WITH_DASH_FOR_TEST_ENTRIES}#{row[ItemKeys::NOTE]}",
@@ -142,12 +190,24 @@ end
 def import_items_from_csv(error_map)
   csv_parser = CSVParser.new(IMPORT_FILE_ITEMS)
   csv_parser.for_each_row do |row|
-    item_attributes = gen_item_attributes(row)
-
     begin
+      item_attributes = gen_item_attributes(row)
+      # puts ">> row: #{row}"
+      # puts ">> item_attributes: #{item_attributes}"
+
       Item.create(item_attributes).save!
     rescue => e
-      error_map["items/#{item_attributes[:note]}"] = { 'data': item_attributes, 'error': e.message }
+
+      # puts ">> e.message: #{e.message}"
+      # puts ">> item_attributes: #{item_attributes}"
+      # puts ">> cl: #{item_attributes}"
+
+      if item_attributes.nil?
+        key = e.message.split(":")[0]
+        error_map["items/#{key}"] = { 'data': key, 'error': e.message }
+      else
+        error_map["items/#{item_attributes[:note]}"] = { 'data': item_attributes, 'error': e.message }
+      end
     end
   end
 end
