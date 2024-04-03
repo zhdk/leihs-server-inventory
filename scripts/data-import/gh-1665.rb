@@ -1,5 +1,7 @@
 # require_relative './parse_csv.rb'
 # require_relative './logger.rb'
+
+# test-server config
 require_relative('shared/logger')
 require_relative('shared/parse_csv')
 require 'date'
@@ -8,9 +10,14 @@ require 'date'
 # RUN: bundle exec rails runner lib/scripts/import_models_and_items.rb
 # https://github.com/leihs/leihs/issues/1665
 
-# FYI: comma separated values
-IMPORT_FILE_MODELS = ENV['IMPORT_FILE'] # "model-import.csv"
-IMPORT_FILE_ITEMS = ENV['IMPORT_FILE'] # "items-import.csv"
+# WORKFLOW
+# 1. Upload csv-files (/tmp/leihs-scripts/*)
+# 2. Script runs once - commits only if all data are correct (all or nothing)
+#  a) errors will be gathered and logged
+
+#  test-server: absolute path
+IMPORT_FILE_MODELS = "/tmp/leihs-scripts/model-import.csv"
+IMPORT_FILE_ITEMS = "/tmp/leihs-scripts/items-import.csv"
 
 # set this from "test-" to "" for production/stage
 PREFIX_WITH_DASH_FOR_TEST_ENTRIES = "test-"
@@ -76,6 +83,8 @@ def import_models_from_csv(error_map)
 end
 
 def extract_building_name_and_code(building_name)
+  # puts "Expected format: "<building_name> <building_code>", building_name: >#{building_name}<"
+
   building_name_extracted = building_name.match(/^(.*)\s\((.*)\)$/)[1]
   building_code_extracted = building_name.match(/^(.*)\s\((.*)\)$/)[2]
 
