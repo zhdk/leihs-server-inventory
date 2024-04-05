@@ -3,7 +3,8 @@
 
 # test-server config
 require_relative('shared/logger')
-require_relative('shared/parse_csv')
+# require_relative('shared/parse_csv')
+require_relative('parse_csv')
 require 'date'
 
 # TODO: remove this
@@ -59,9 +60,14 @@ module ItemKeys
   INVENTORY_CODE = "inventory_code"
 end
 
-def to_bool(str, row)
-  puts "row: >#{row}<"
-  puts "str: >#{str}<"
+def to_bool(str, row, info)
+  puts "row[#{info}]: >#{row}<"
+  puts "str[#{info}]: >#{str}<"
+
+  if str.nil?
+    return nil
+  end
+
   case str.downcase
   when 'true', 't', 'yes', 'y', '1'
     true
@@ -85,21 +91,35 @@ end
 def import_models_from_csv(error_map)
   csv_parser = CSVParser.new(IMPORT_FILE_MODELS)
   csv_parser.for_each_row do |row|
+
+    if row == "model;supplier;technical_detail;description"
+      next
+    end
+
     model_attributes = gen_model_attributes(row)
 
     begin
       Model.create(model_attributes).save!
     rescue => e
-      error_map["model/#{model_attributes[:product]}"] = { 'data': model_attributes, 'error': e.message }
+      error_map["model/#{model_attributes[:product]}"] = {'detail:': row, 'data': model_attributes, 'error': e.message }
     end
   end
 end
 
 def extract_building_name_and_code(building_name)
-  # puts "Expected format: "<building_name> <building_code>", building_name: >#{building_name}<"
+  puts "Expected format: '<building_name> <building_code>', building_name: >#{building_name}<"
 
-  building_name_extracted = building_name.match(/^(.*)\s\((.*)\)$/)[1]
-  building_code_extracted = building_name.match(/^(.*)\s\((.*)\)$/)[2]
+  building_name_extracted = nil
+  building_code_extracted = nil
+
+
+  if building_name.include? ' ('
+    building_name_extracted = building_name.match(/^(.*)\s\((.*)\)$/)[1]
+    building_code_extracted = building_name.match(/^(.*)\s\((.*)\)$/)[2]
+
+  else
+    building_name_extracted = building_name
+  end
 
   return building_code_extracted, building_name_extracted
 end
@@ -111,11 +131,8 @@ def gen_item_attributes(row)
   end
 
   owner_name = row[ItemKeys::OWNER]
-  is_retired = to_bool(row[ItemKeys::RETIRED], row)
+  is_retired = to_bool(row[ItemKeys::RETIRED], row, 'is_retired/item-reason')
   responsible_department_name = row[ItemKeys::RESPONSIBLE_DEPARTMENT]
-
-  building_name = row[ItemKeys::BUILDING]
-  # building_code_extracted, building_name_extracted = extract_building_name_and_code(building_name)
 
   room_name = row[ItemKeys::ROOM]
   puts ">> gen_item_attributes2 product: #{model_name}"
@@ -139,10 +156,6 @@ def gen_item_attributes(row)
     raise "#{owner_name}: No active Owner-InventoryPool found by name! InventoryPool.name='#{owner_name}' not found!"
   end
 
-  # with code
-  # responsible_department_name_rec = InventoryPool.find_by!(name: responsible_department_name)
-  # building_rec = Building.find_by!(name: building_name_extracted, code: building_code_extracted)
-
   responsible_department_name_rec = nil
   begin
     responsible_department_name_rec = InventoryPool.find_by!(name: responsible_department_name)
@@ -152,25 +165,44 @@ def gen_item_attributes(row)
     raise "#{responsible_department_name}: No active InventoryPool found by name! InventoryPool.name='#{responsible_department_name}' not found!"
   end
 
+  building_name = row[ItemKeys::BUILDING]
+  building_code_extracted, building_name_extracted = extract_building_name_and_code(building_name)
+
+
+
+
+
   building_rec = nil
   begin
-    building_rec = Building.find_by!(name: building_name)
+    if building_code_extracted.nil?
+      building_rec = Building.find_by!(name: building_name)
+    else
+      building_rec = Building.find_by!(name: building_name_extracted, code: building_code_extracted)
+    end
   rescue => e
     raise "#{building_name}: Building not found by name! Building.name='{building_name}' not found!"
   end
+
+
+
+
+
+
+
+
 
   room_rec = nil
   begin
     room_rec = Room.find_by!(building_id: building_rec.id, name: room_name)
   rescue => e
-    raise "#{room_name}: Room not found by name! Room.building_id='#{building_rec.id}', name='#{room_name}' not found!"
+    raise "#{room_name}: Room not found by name! Room.building_id='#{building_rec.id}' / '#{building_rec.name}', name='#{room_name}' not found!"
   end
 
   item_attributes = {
     note: "#{PREFIX_WITH_DASH_FOR_TEST_ENTRIES}#{row[ItemKeys::NOTE]}",
     inventory_code: Item.proposed_inventory_code(responsible_department_name_rec, :lowest),
     serial_number: row[ItemKeys::SERIAL_NUMBER],
-    is_broken: to_bool(row[ItemKeys::IS_BROKEN], row),
+    is_broken: to_bool(row[ItemKeys::IS_BROKEN], row, "is_broken/#{room_name}/#{building_name}"),
     owner_id: owner_rec.id,
     inventory_pool_id: responsible_department_name_rec.id,
     room_id: room_rec.id,
@@ -191,6 +223,11 @@ def import_items_from_csv(error_map)
   csv_parser = CSVParser.new(IMPORT_FILE_ITEMS)
   csv_parser.for_each_row do |row|
     begin
+
+      if row == "note;serial_number;retired;is_broken;owner;inventory_pool;building;room;properties_installation_status;model;inventory_code"
+        next
+      end
+
       item_attributes = gen_item_attributes(row)
       # puts ">> row: #{row}"
       # puts ">> item_attributes: #{item_attributes}"

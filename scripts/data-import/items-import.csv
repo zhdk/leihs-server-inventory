@@ -1,256 +1,256 @@
-note,serial_number,retired,is_broken,owner,inventory_pool,building,room,properties_installation_status,model
-TAA-RZ-BN1.net.zhdk.ch,FOC2643YGPU,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ,installed,C9500-24Q
-TAA-RZ-BN2.net.zhdk.ch,FCW2238U091,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ,installed,C9500-24Q
-SN-FJC280216K4.net.zhdk.ch,FJC280216K4,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280216XX.net.zhdk.ch,FJC280216XX,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280215WV.net.zhdk.ch,FJC280215WV,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280216GT.net.zhdk.ch,FJC280216GT,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280217GD.net.zhdk.ch,FJC280217GD,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC2802199Y.net.zhdk.ch,FJC2802199Y,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC2751119R.net.zhdk.ch,FJC2751119R,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC2802172U.net.zhdk.ch,FJC2802172U,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC28011082.net.zhdk.ch,FJC28011082,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280217MU.net.zhdk.ch,FJC280217MU,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC2801108K.net.zhdk.ch,FJC2801108K,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC2802172F.net.zhdk.ch,FJC2802172F,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC27501YFA.net.zhdk.ch,FJC27501YFA,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280217BZ.net.zhdk.ch,FJC280217BZ,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280216GR.net.zhdk.ch,FJC280216GR,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280112GG.net.zhdk.ch,FJC280112GG,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC28011091.net.zhdk.ch,FJC28011091,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280217DV.net.zhdk.ch,FJC280217DV,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC28021537.net.zhdk.ch,FJC28021537,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC2802166N.net.zhdk.ch,FJC2802166N,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280216GA.net.zhdk.ch,FJC280216GA,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280216XU.net.zhdk.ch,FJC280216XU,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280217N9.net.zhdk.ch,FJC280217N9,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280217BQ.net.zhdk.ch,FJC280217BQ,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280216VU.net.zhdk.ch,FJC280216VU,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280218JU.net.zhdk.ch,FJC280218JU,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC27511FLL.net.zhdk.ch,FJC27511FLL,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC2802173U.net.zhdk.ch,FJC2802173U,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC27521L2J.net.zhdk.ch,FJC27521L2J,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC27481L75.net.zhdk.ch,FJC27481L75,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280117VA.net.zhdk.ch,FJC280117VA,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280214UH.net.zhdk.ch,FJC280214UH,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC280216HJ.net.zhdk.ch,FJC280216HJ,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-SN-FJC28011087.net.zhdk.ch,FJC28011087,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-GEA-BN1.net.zhdk.ch,FOC2544YS1K,FALSE,FALSE,noc@zhdk.ch,,GEA,BN1,inStorage,C9300-48UXM
-GEA-BN1.net.zhdk.ch,FOC2547Y4L4,FALSE,FALSE,noc@zhdk.ch,,GEA,BN1,inStorage,C9300-48UXM
-SN-FJC280217E8.net.zhdk.ch,FJC280217E8,FALSE,FALSE,noc@zhdk.ch,,Lager,JC2,inStorage,C9200CX-12P-2X2G
-TAA-A01-00.net.zhdk.ch,FOC2712Z0DV,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A01,inStorage,C9300-48UXM
-TAA-A02-01.net.zhdk.ch,FOC2712Z0BU,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A02,inStorage,C9300-48UXM
-TAA-A03-02.net.zhdk.ch,FOC2712Z0HD,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A03,inStorage,C9300-48UXM
-TAA-A04-03.net.zhdk.ch,FOC2712Z0DR,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A04,inStorage,C9300-48UXM
-TAA-A04-03.net.zhdk.ch,FOC2713Y05T,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A04,inStorage,C9300-48UXM
-TAA-A05-04.net.zhdk.ch,FOC2712Z0Q1,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A05,inStorage,C9300-48UXM
-TAA-A05-04.net.zhdk.ch,FOC2712Z0D0,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A05,inStorage,C9300-48UXM
-TAA-A05-04.net.zhdk.ch,FOC2638YP71,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A05,inStorage,C9300-48UXM
-TAA-A06-05.net.zhdk.ch,FOC2713Y5T4,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A06,inStorage,C9300-48UXM
-TAA-A06-05.net.zhdk.ch,FOC2712Z0MM,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A06,inStorage,C9300-48UXM
-TAA-A06-05.net.zhdk.ch,FOC2638YMDG,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A06,inStorage,C9300-48UXM
-TAA-A06-09.net.zhdk.ch,FOC2547Y47N,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A06,inStorage,C9300-48UXM
-TAA-A06-09.net.zhdk.ch,FOC2547Y4FF,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A06,inStorage,C9300-48UXM
-TAA-A07-06.net.zhdk.ch,FVH2740L0KE,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A07,inStorage,C9300-48UXM
-TAA-A07-06.net.zhdk.ch,FOC2713Y5TN,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A07,inStorage,C9300-48UXM
-TAA-A07-06.net.zhdk.ch,FOC2713Y8WT,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A07,inStorage,C9300-48UXM
-TAA-A08-07.net.zhdk.ch,FVH2740L0K2,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A08,inStorage,C9300-48UXM
-TAA-A08-07.net.zhdk.ch,FVH2740L0JC,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A08,inStorage,C9300-48UXM
-TAA-A08-07.net.zhdk.ch,FVH2740L0JE,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A08,inStorage,C9300-48UXM
-TAA-A09-08.net.zhdk.ch,FOC2713Y096,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A09,inStorage,C9300-48UXM
-TAA-A09-08.net.zhdk.ch,FOC2713Y03N,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,A09,inStorage,C9300-48UXM
-TAA-AT-IN1.net.zhdk.ch,CAT2402L65P,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ,installed,C9500-48Y4C
-TAA-B01-00.net.zhdk.ch,FOC2712Z0DM,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B01,inStorage,C9300-48UXM
-TAA-B01-00.net.zhdk.ch,FOC2712Z0MK,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B01,inStorage,C9300-48UXM
-TAA-B02-01.net.zhdk.ch,FOC2712Z0DB,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B02,inStorage,C9300-48UXM
-TAA-B02-01.net.zhdk.ch,FOC2712Z0QB,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B02,inStorage,C9300-48UXM
-TAA-B02-01.net.zhdk.ch,FOC2542Y5G0,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B02,inStorage,C9300-48UXM
-TAA-B03-02.net.zhdk.ch,FOC2727Y63C,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B03,inStorage,C9300-48UXM
-TAA-B03-02.net.zhdk.ch,FOC2733Y4N1,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B03,inStorage,C9300-48UXM
-TAA-B03-03.net.zhdk.ch,FOC2735Y06W,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B03,inStorage,C9300-48UXM
-TAA-B03-03.net.zhdk.ch,FOC2727Y5CY,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B03,inStorage,C9300-48UXM
-TAA-B03-29.net.zhdk.ch,FOC2729Y0XT,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B03,inStorage,C9300-48UXM
-TAA-B03-29.net.zhdk.ch,FVH2740L0GC,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B03,inStorage,C9300-48UXM
-TAA-B04-05.net.zhdk.ch,FOC2547Y9UW,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B04,installed,C9300-48UXM
-TAA-B04-05.net.zhdk.ch,FOC2547Y9RP,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B04,installed,C9300-48UXM
-TAA-B05-07.net.zhdk.ch,FOC2730YC8N,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B05,inStorage,C9300-48UXM
-TAA-B05-07.net.zhdk.ch,FOC2730Y1C8,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B05,inStorage,C9300-48UXM
-TAA-B05-08.net.zhdk.ch,FVH2740L0JD,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B05,inStorage,C9300-48UXM
-TAA-B05-08.net.zhdk.ch,FVH2740L0L4,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B05,inStorage,C9300-48UXM
-TAA-B05-09.net.zhdk.ch,FOC2730Y1C9,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B05,inStorage,C9300-48UXM
-TAA-B05-09.net.zhdk.ch,FVH2740L0J5,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B05,inStorage,C9300-48UXM
-TAA-B05-09.net.zhdk.ch,FOC2542Y3W4,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B05,inStorage,C9300-48UXM
-TAA-B05-09.net.zhdk.ch,FOC2542Y5FF,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B05,inStorage,C9300-48UXM
-TAA-B06-10.net.zhdk.ch,FVH2737L8A9,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B06,inStorage,C9300-48UXM
-TAA-B06-10.net.zhdk.ch,FVH2740L0KB,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B06,inStorage,C9300-48UXM
-TAA-B06-11.net.zhdk.ch,FVH2740L0JN,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B06,inStorage,C9300-48UXM
-TAA-B06-11.net.zhdk.ch,FVH2737L89J,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B06,inStorage,C9300-48UXM
-TAA-B06-11.net.zhdk.ch,FOC2542Y5EX,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B06,inStorage,C9300-48UXM
-TAA-B06-12.net.zhdk.ch,FOC2730Y1CG,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B06,inStorage,C9300-48UXM
-TAA-B06-12.net.zhdk.ch,FVH2740L0JU,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B06,inStorage,C9300-48UXM
-TAA-B07-13.net.zhdk.ch,FOC2733Y52B,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B07,inStorage,C9300-48UXM
-TAA-B07-13.net.zhdk.ch,FVH2737L8B3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B07,inStorage,C9300-48UXM
-TAA-B07-14.net.zhdk.ch,FVH2740L0J6,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B07,inStorage,C9300-48UXM
-TAA-B07-14.net.zhdk.ch,FOC2733Y088,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B07,inStorage,C9300-48UXM
-TAA-B07-14.net.zhdk.ch,FOC2539Y67L,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,B07,inStorage,C9300-48UXM
-TAA-BD-IN1.net.zhdk.ch,CAT2402L64P,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ,installed,C9500-48Y4C
-TAA-BD-SDA1.net.zhdk.ch,FCW2334G0YR,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,Lab,installed,C9300-24UXB
-TAA-C01-00.net.zhdk.ch,FOC2730Y1D5,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C01,inStorage,C9300-48UXM
-TAA-C01-00.net.zhdk.ch,FOC2729Y52Z,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C01,inStorage,C9300-48UXM
-TAA-C01-01.net.zhdk.ch,FOC2727Y31W,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C01,inStorage,C9300-48UXM
-TAA-C01-01.net.zhdk.ch,FOC2734Y4SD,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C01,inStorage,C9300-48UXM
-TAA-C01-02.net.zhdk.ch,FVH2737L85V,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C01,inStorage,C9300-48UXM
-TAA-C01-02.net.zhdk.ch,FOC2730YC8E,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C01,inStorage,C9300-48UXM
-TAA-C02-03.net.zhdk.ch,FOC2730YC8G,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C02,inStorage,C9300-48UXM
-TAA-C02-03.net.zhdk.ch,FOC2729Y0XP,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C02,inStorage,C9300-48UXM
-TAA-C03-04.net.zhdk.ch,FVH2737L8BJ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C03,inStorage,C9300-48UXM
-TAA-C03-04.net.zhdk.ch,FOC2730Y1D4,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C03,inStorage,C9300-48UXM
-TAA-C03-05.net.zhdk.ch,FOC2730Y1D3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C03,inStorage,C9300-48UXM
-TAA-C03-05.net.zhdk.ch,FOC2713Y8WU,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C03,inStorage,C9300-48UXM
-TAA-C03-30.net.zhdk.ch,FOC2547YCGR,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C03,inStorage,C9300-48UXM
-TAA-C03-30.net.zhdk.ch,FOC2734Y04R,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C03,inStorage,C9300-48UXM
-TAA-C03-31.net.zhdk.ch,FOC2713Y90M,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C03,inStorage,C9300-48UXM
-TAA-C03-31.net.zhdk.ch,FOC2713Y908,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C03,inStorage,C9300-48UXM
-TAA-C04-06.net.zhdk.ch,FOC2713Y7HS,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C04,inStorage,C9300-48UXM
-TAA-C04-06.net.zhdk.ch,FOC2713Y8V6,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C04,inStorage,C9300-48UXM
-TAA-C04-07.net.zhdk.ch,FOC2713Y92H,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C04,inStorage,C9300-48UXM
-TAA-C04-07.net.zhdk.ch,FOC2713Y4HU,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C04,inStorage,C9300-48UXM
-TAA-C04-08.net.zhdk.ch,FOC2713Y0FN,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C04,inStorage,C9300-48UXM
-TAA-C04-08.net.zhdk.ch,FOC2638YSZW,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C04,inStorage,C9300-48UXM
-TAA-C04-08.net.zhdk.ch,FOC2638YRR4,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C04,inStorage,C9300-48UXM
-TAA-C05-09.net.zhdk.ch,FOC2713Y04H,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C05,inStorage,C9300-48UXM
-TAA-C05-09.net.zhdk.ch,FOC2712Z206,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C05,inStorage,C9300-48UXM
-TAA-C05-10.net.zhdk.ch,FOC2713Y7J4,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C05,inStorage,C9300-48UXM
-TAA-C05-10.net.zhdk.ch,FOC2713Y1UU,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C05,inStorage,C9300-48UXM
-TAA-C05-10.net.zhdk.ch,FOC2638YR92,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C05,inStorage,C9300-48UXM
-TAA-C06-11.net.zhdk.ch,FOC2638YSCK,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C06,inStorage,C9300-48UXM
-TAA-C06-11.net.zhdk.ch,FOC2713Y7N9,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C06,inStorage,C9300-48UXM
-TAA-C06-12.net.zhdk.ch,FOC2713Y048,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C06,inStorage,C9300-48UXM
-TAA-C06-12.net.zhdk.ch,FOC2713Y0JF,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C06,inStorage,C9300-48UXM
-TAA-C07-13.net.zhdk.ch,FOC2713Y04L,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C07,inStorage,C9300-48UXM
-TAA-C07-13.net.zhdk.ch,FOC2713Y04C,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C07,inStorage,C9300-48UXM
-TAA-C07-14.net.zhdk.ch,FOC2713Y7T7,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C07,inStorage,C9300-48UXM
-TAA-C07-14.net.zhdk.ch,FOC2713Y03X,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C07,inStorage,C9300-48UXM
-TAA-C07-14.net.zhdk.ch,FOC2638YRKD,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,C07,inStorage,C9300-48UXM
-TAA-CE-IN1.net.zhdk.ch,CAT2402L2FD,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ,installed,C9500-48Y4C
-TAA-D01-15.net.zhdk.ch,FOC2727Y2ZR,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D01,inStorage,C9300-48UXM
-TAA-D01-15.net.zhdk.ch,FVH2737L85S,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D01,inStorage,C9300-48UXM
-TAA-D01-32.net.zhdk.ch,FOC2730Y1CD,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D01,inStorage,C9300-48UXM
-TAA-D01-32.net.zhdk.ch,FVH2737L880,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D01,inStorage,C9300-48UXM
-TAA-D03-16.net.zhdk.ch,FOC2729Y0XM,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-16.net.zhdk.ch,FVH2737L87W,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-17.net.zhdk.ch,FVH2737L8AX,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-17.net.zhdk.ch,FOC2727Y59V,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-17.net.zhdk.ch,FOC2542Y5ER,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-18.net.zhdk.ch,FOC2713Y4U9,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-18.net.zhdk.ch,FOC2713Y4YW,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-31.net.zhdk.ch,FOC2730YC6D,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-31.net.zhdk.ch,FOC2733Y01D,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D03-31.net.zhdk.ch,FOC2542Y5J8,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D03,inStorage,C9300-48UXM
-TAA-D04-19.net.zhdk.ch,FOC2728YG7L,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D04,inStorage,C9300-48UXM
-TAA-D04-19.net.zhdk.ch,FOC2730YBTC,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D04,inStorage,C9300-48UXM
-TAA-D04-19.net.zhdk.ch,FOC2542Y5LX,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D04,inStorage,C9300-48UXM
-TAA-D04-21.net.zhdk.ch,FVH2737L854,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D04,inStorage,C9300-48UXM
-TAA-D04-21.net.zhdk.ch,FOC2543YN41,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D04,inStorage,C9300-48UXM
-TAA-D04-21.net.zhdk.ch,FOC2542Y5H3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D04,inStorage,C9300-48UXM
-TAA-D05-22.net.zhdk.ch,FOC2713Y5WH,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D05,inStorage,C9300-48UXM
-TAA-D05-22.net.zhdk.ch,FVH2737L88X,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D05,inStorage,C9300-48UXM
-TAA-D05-22.net.zhdk.ch,FOC2542Y5FS,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D05,inStorage,C9300-48UXM
-TAA-D05-23.net.zhdk.ch,FOC2712Z0HJ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D05,inStorage,C9300-48UXM
-TAA-D05-23.net.zhdk.ch,FOC2713Y4LX,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D05,inStorage,C9300-48UXM
-TAA-D05-28.net.zhdk.ch,FVH2737L829,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D05,inStorage,C9300-48UXM
-TAA-D05-28.net.zhdk.ch,FOC2733Y2AK,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D05,inStorage,C9300-48UXM
-TAA-D06-24.net.zhdk.ch,FVH2737L8C1,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D06,inStorage,C9300-48UXM
-TAA-D06-24.net.zhdk.ch,FVH2737L828,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D06,inStorage,C9300-48UXM
-TAA-D06-25.net.zhdk.ch,FVH2737L8UM,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D06,inStorage,C9300-48UXM
-TAA-D06-25.net.zhdk.ch,FVH2737L8UN,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D06,inStorage,C9300-48UXM
-TAA-D06-25.net.zhdk.ch,FOC2542Y5GD,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D06,inStorage,C9300-48UXM
-TAA-D07-26.net.zhdk.ch,FVH2737L8US,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D07,inStorage,C9300-48UXM
-TAA-D07-26.net.zhdk.ch,FVH2737L874,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D07,inStorage,C9300-48UXM
-TAA-D07-27.net.zhdk.ch,FOC2712Z0NT,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D07,inStorage,C9300-48UXM
-TAA-D07-27.net.zhdk.ch,FVH2737L82D,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D07,inStorage,C9300-48UXM
-TAA-D07-27.net.zhdk.ch,FOC2542Y5H0,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,D07,inStorage,C9300-48UXM
-TAA-E01-15.net.zhdk.ch,FVH2737L85M,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E01,inStorage,C9300-48UXM
-TAA-E03-17.net.zhdk.ch,FVH2737L84K,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E03,inStorage,C9300-48UXM
-TAA-E03-17.net.zhdk.ch,FOC2638YRQA,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E03,inStorage,C9300-48UXM
-TAA-E03-18.net.zhdk.ch,FOC2638YS7D,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E03,inStorage,C9300-48UXM
-TAA-E03-18.net.zhdk.ch,FOC2638YS3V,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E03,inStorage,C9300-48UXM
-TAA-E03-19.net.zhdk.ch,FOC2713Y8XQ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E03,inStorage,C9300-48UXM
-TAA-E03-19.net.zhdk.ch,FVH2737L859,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E03,inStorage,C9300-48UXM
-TAA-E03-19.net.zhdk.ch,FOC2638YMS7,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E03,inStorage,C9300-48UXM
-TAA-E04-20.net.zhdk.ch,FOC2713Y90C,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-20.net.zhdk.ch,FOC2713Y8X2,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-21.net.zhdk.ch,FOC2547Y4L1,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-21.net.zhdk.ch,FOC2547Y4GW,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-21.net.zhdk.ch,FOC2543Z0U7,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-22.net.zhdk.ch,FOC2547Y4L2,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-22.net.zhdk.ch,FOC2547Y49T,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-23.net.zhdk.ch,FOC2547Y4G8,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-23.net.zhdk.ch,FOC2547Y4G3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E04-23.net.zhdk.ch,FOC2547Y4GB,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E04,inStorage,C9300-48UXM
-TAA-E05-24.net.zhdk.ch,FVH2737L847,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E05,inStorage,C9300-48UXM
-TAA-E05-24.net.zhdk.ch,FOC2547Y3TJ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E05,inStorage,C9300-48UXM
-TAA-E05-25.net.zhdk.ch,FOC2544YS3U,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E05,inStorage,C9300-48UXM
-TAA-E05-25.net.zhdk.ch,FOC2544YSCE,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E05,inStorage,C9300-48UXM
-TAA-E06-26.net.zhdk.ch,FOC2541YGC0,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E06,inStorage,C9300-48UXM
-TAA-E06-26.net.zhdk.ch,FOC2547Y4FZ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E06,inStorage,C9300-48UXM
-TAA-E06-27.net.zhdk.ch,FOC2547Y4MA,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E06,inStorage,C9300-48UXM
-TAA-E06-27.net.zhdk.ch,FOC2544YSL4,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E06,inStorage,C9300-48UXM
-TAA-E07-28.net.zhdk.ch,FOC2547Y4HH,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E07,inStorage,C9300-48UXM
-TAA-E07-28.net.zhdk.ch,FOC2547Y4G2,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,E07,inStorage,C9300-48UXM
-TAA-I01-29.net.zhdk.ch,FOC2712Z0LA,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,I01,inStorage,C9300-48UXM
-TAA-I01-33.net.zhdk.ch,FOC2713Y932,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,I01,inStorage,C9300-48UXM
-TAA-I01-34.net.zhdk.ch,FOC2713Y7RJ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,I01,inStorage,C9300-48UXM
-TAA-K03-20.net.zhdk.ch,FOC2544YKE1,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,K03,inStorage,C9300-48UXM
-TAA-M01-29.net.zhdk.ch,FOC2547Y3TK,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,M01,inStorage,C9300-48UXM
-TAA-M01-29.net.zhdk.ch,FOC2547Y3U2,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,M01,inStorage,C9300-48UXM
-TAA-M01-29.net.zhdk.ch,FOC2547Y443,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,M01,inStorage,C9300-48UXM
-TAA-RZ-201.net.zhdk.ch,FOC2712Z0MZ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ-,inStorage,C9300-48UXM
-TAA-RZ-202.net.zhdk.ch,FOC2547YDSA,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ,installed,C9300-48UXM
-TAA-RZ-P1.net.zhdk.ch,FCW2339A28E,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ,installed,C9500-24Q
-TAA-RZ-P2.net.zhdk.ch,FCW2339A28K,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,RZ,installed,C9500-24Q
-TAA-S03-28.net.zhdk.ch,FOC2712Z0G3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,S03,inStorage,C9300-48UXM
-TAA-S03-28.net.zhdk.ch,FOC2713Y93K,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,S03,inStorage,C9300-48UXM
-TAA-S03-28.net.zhdk.ch,FOC2638YLJ3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,S03,inStorage,C9300-48UXM
-TAA-T01-10.net.zhdk.ch,FOC2547YCGD,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T01,inStorage,C9300-48UXM
-TAA-T02-27.net.zhdk.ch,FOC2713Y93D,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T02,inStorage,C9300-48UXM
-TAA-T02-27.net.zhdk.ch,FOC2712Z0H6,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T02,inStorage,C9300-48UXM
-TAA-T03-26.net.zhdk.ch,FOC2712Z0G0,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T03,inStorage,C9300-48UXM
-TAA-T04-11.net.zhdk.ch,FVH2737L84Q,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T04,inStorage,C9300-48UXM
-TAA-T04-11.net.zhdk.ch,FVH2737L85Y,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T04,inStorage,C9300-48UXM
-TAA-T04-12.net.zhdk.ch,FOC2547Y4KQ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T04,inStorage,C9300-48UXM
-TAA-T04-12.net.zhdk.ch,FOC2547Y4LY,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T04,inStorage,C9300-48UXM
-TAA-T05-13.net.zhdk.ch,FVH2740L0FK,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T05,inStorage,C9300-48UXM
-TAA-T05-13.net.zhdk.ch,FVH2740L0KJ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T05,inStorage,C9300-48UXM
-TAA-T05-13.net.zhdk.ch,FVH2740L0E4,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T05,inStorage,C9300-48UXM
-TAA-T05-14.net.zhdk.ch,FOC2544YSES,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T05,inStorage,C9300-48UXM
-TAA-T05-14.net.zhdk.ch,FOC2547Y4KW,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T05,inStorage,C9300-48UXM
-TAA-T06-15.net.zhdk.ch,FVH2737L840,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T06,inStorage,C9300-48UXM
-TAA-T06-15.net.zhdk.ch,FVH2737L8UP,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T06,inStorage,C9300-48UXM
-TAA-T06-15.net.zhdk.ch,FVH2740L0G3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T06,inStorage,C9300-48UXM
-TAA-T07-16.net.zhdk.ch,FOC2547Y4H5,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T07,inStorage,C9300-48UXM
-TAA-T07-16.net.zhdk.ch,FOC2543YQ25,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T07,inStorage,C9300-48UXM
-TAA-T07-17.net.zhdk.ch,FVH2740L0ET,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T07,inStorage,C9300-48UXM
-TAA-T07-17.net.zhdk.ch,FVH2740L0FA,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T07,inStorage,C9300-48UXM
-TAA-T08-18.net.zhdk.ch,FVH2740L0K3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T08,inStorage,C9300-48UXM
-TAA-T08-18.net.zhdk.ch,FVH2737L843,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T08,inStorage,C9300-48UXM
-TAA-T08-19.net.zhdk.ch,FVH2737L83X,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T08,inStorage,C9300-48UXM
-TAA-T08-19.net.zhdk.ch,FOC2734Y04Q,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T08,inStorage,C9300-48UXM
-TAA-T08-19.net.zhdk.ch,FOC2733Y1NR,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T08,inStorage,C9300-48UXM
-TAA-T09-20.net.zhdk.ch,FOC2730YC9M,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T09,inStorage,C9300-48UXM
-TAA-T09-20.net.zhdk.ch,FVH2737L83V,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T09,inStorage,C9300-48UXM
-TAA-T09-21.net.zhdk.ch,FOC2713Y8XB,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T09,inStorage,C9300-48UXM
-TAA-T09-21.net.zhdk.ch,FOC2726YHY3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T09,inStorage,C9300-48UXM
-TAA-T10-22.net.zhdk.ch,FOC2712Z0H9,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T10,inStorage,C9300-48UXM
-TAA-T10-22.net.zhdk.ch,FOC2712Z0EM,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T10,inStorage,C9300-48UXM
-TAA-T10-23.net.zhdk.ch,FOC2544YAVB,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T10,inStorage,C9300-48UXM
-TAA-T10-23.net.zhdk.ch,FOC2544Y9D0,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T10,inStorage,C9300-48UXM
-TAA-T10-23.net.zhdk.ch,FOC2638YRD3,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T10,inStorage,C9300-48UXM
-TAA-T10-30.net.zhdk.ch,FOC2713Y7WT,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T10,inStorage,C9300-48UXM
-TAA-T10-30.net.zhdk.ch,FOC2713Y93C,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T10,inStorage,C9300-48UXM
-TAA-T11-24.net.zhdk.ch,FOC2713Y92C,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T11,inStorage,C9300-48UXM
-TAA-T11-24.net.zhdk.ch,FOC2547YDHX,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T11,inStorage,C9300-48UXM
-TAA-T11-25.net.zhdk.ch,FOC2544YH2N,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T11,inStorage,C9300-48UXM
-TAA-T11-25.net.zhdk.ch,FOC2547YCGG,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T11,inStorage,C9300-48UXM
-TAA-T11-25.net.zhdk.ch,FOC2638YS4R,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T11,inStorage,C9300-48UXM
-TAA-T11-31.net.zhdk.ch,FOC2713Y8VJ,FALSE,FALSE,noc@zhdk.ch,ITZ_Network,TAA,T11,inStorage,C9300-48UXM
+note;serial_number;retired;is_broken;owner;inventory_pool;building;room;properties_installation_status;model
+TAA-RZ-BN1.net.zhdk.ch;FOC2643YGPU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9500-24Q
+TAA-RZ-BN2.net.zhdk.ch;FCW2238U091;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9500-24Q
+SN-FJC280216K4.net.zhdk.ch;FJC280216K4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280216XX.net.zhdk.ch;FJC280216XX;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280215WV.net.zhdk.ch;FJC280215WV;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280216GT.net.zhdk.ch;FJC280216GT;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280217GD.net.zhdk.ch;FJC280217GD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC2802199Y.net.zhdk.ch;FJC2802199Y;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC2751119R.net.zhdk.ch;FJC2751119R;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC2802172U.net.zhdk.ch;FJC2802172U;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC28011082.net.zhdk.ch;FJC28011082;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280217MU.net.zhdk.ch;FJC280217MU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC2801108K.net.zhdk.ch;FJC2801108K;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC2802172F.net.zhdk.ch;FJC2802172F;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC27501YFA.net.zhdk.ch;FJC27501YFA;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280217BZ.net.zhdk.ch;FJC280217BZ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280216GR.net.zhdk.ch;FJC280216GR;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280112GG.net.zhdk.ch;FJC280112GG;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC28011091.net.zhdk.ch;FJC28011091;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280217DV.net.zhdk.ch;FJC280217DV;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC28021537.net.zhdk.ch;FJC28021537;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC2802166N.net.zhdk.ch;FJC2802166N;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280216GA.net.zhdk.ch;FJC280216GA;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280216XU.net.zhdk.ch;FJC280216XU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280217N9.net.zhdk.ch;FJC280217N9;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280217BQ.net.zhdk.ch;FJC280217BQ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280216VU.net.zhdk.ch;FJC280216VU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280218JU.net.zhdk.ch;FJC280218JU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC27511FLL.net.zhdk.ch;FJC27511FLL;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC2802173U.net.zhdk.ch;FJC2802173U;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC27521L2J.net.zhdk.ch;FJC27521L2J;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC27481L75.net.zhdk.ch;FJC27481L75;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280117VA.net.zhdk.ch;FJC280117VA;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280214UH.net.zhdk.ch;FJC280214UH;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC280216HJ.net.zhdk.ch;FJC280216HJ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+SN-FJC28011087.net.zhdk.ch;FJC28011087;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+GEA-BN1.net.zhdk.ch;FOC2544YS1K;FALSE;FALSE;ITZ-Network;ITZ-Network;Gessnerallee;Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+GEA-BN1.net.zhdk.ch;FOC2547Y4L4;FALSE;FALSE;ITZ-Network;ITZ-Network;Gessnerallee;Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+SN-FJC280217E8.net.zhdk.ch;FJC280217E8;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9200CX-12P
+TAA-A01-00.net.zhdk.ch;FOC2712Z0DV;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A02-01.net.zhdk.ch;FOC2712Z0BU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A03-02.net.zhdk.ch;FOC2712Z0HD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A04-03.net.zhdk.ch;FOC2712Z0DR;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A04-03.net.zhdk.ch;FOC2713Y05T;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A05-04.net.zhdk.ch;FOC2712Z0Q1;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A05-04.net.zhdk.ch;FOC2712Z0D0;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A05-04.net.zhdk.ch;FOC2638YP71;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A06-05.net.zhdk.ch;FOC2713Y5T4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A06-05.net.zhdk.ch;FOC2712Z0MM;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A06-05.net.zhdk.ch;FOC2638YMDG;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A06-09.net.zhdk.ch;FOC2547Y47N;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A06-09.net.zhdk.ch;FOC2547Y4FF;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A07-06.net.zhdk.ch;FVH2740L0KE;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A07-06.net.zhdk.ch;FOC2713Y5TN;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A07-06.net.zhdk.ch;FOC2713Y8WT;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A08-07.net.zhdk.ch;FVH2740L0K2;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A08-07.net.zhdk.ch;FVH2740L0JC;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A08-07.net.zhdk.ch;FVH2740L0JE;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A09-08.net.zhdk.ch;FOC2713Y096;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-A09-08.net.zhdk.ch;FOC2713Y03N;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-AT-IN1.net.zhdk.ch;CAT2402L65P;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9500-48Y4C
+TAA-B01-00.net.zhdk.ch;FOC2712Z0DM;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B01-00.net.zhdk.ch;FOC2712Z0MK;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B02-01.net.zhdk.ch;FOC2712Z0DB;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B02-01.net.zhdk.ch;FOC2712Z0QB;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B02-01.net.zhdk.ch;FOC2542Y5G0;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B03-02.net.zhdk.ch;FOC2727Y63C;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B03-02.net.zhdk.ch;FOC2733Y4N1;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B03-03.net.zhdk.ch;FOC2735Y06W;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B03-03.net.zhdk.ch;FOC2727Y5CY;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B03-29.net.zhdk.ch;FOC2729Y0XT;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B03-29.net.zhdk.ch;FVH2740L0GC;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B04-05.net.zhdk.ch;FOC2547Y9UW;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9300-48UXM
+TAA-B04-05.net.zhdk.ch;FOC2547Y9RP;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9300-48UXM
+TAA-B05-07.net.zhdk.ch;FOC2730YC8N;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B05-07.net.zhdk.ch;FOC2730Y1C8;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B05-08.net.zhdk.ch;FVH2740L0JD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B05-08.net.zhdk.ch;FVH2740L0L4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B05-09.net.zhdk.ch;FOC2730Y1Catalyst 9;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B05-09.net.zhdk.ch;FVH2740L0J5;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B05-09.net.zhdk.ch;FOC2542Y3W4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B05-09.net.zhdk.ch;FOC2542Y5FF;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B06-10.net.zhdk.ch;FVH2737L8A9;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B06-10.net.zhdk.ch;FVH2740L0KB;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B06-11.net.zhdk.ch;FVH2740L0JN;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B06-11.net.zhdk.ch;FVH2737L89J;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B06-11.net.zhdk.ch;FOC2542Y5EX;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B06-12.net.zhdk.ch;FOC2730Y1CG;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B06-12.net.zhdk.ch;FVH2740L0JU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B07-13.net.zhdk.ch;FOC2733Y52B;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B07-13.net.zhdk.ch;FVH2737L8B3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B07-14.net.zhdk.ch;FVH2740L0J6;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B07-14.net.zhdk.ch;FOC2733Y088;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-B07-14.net.zhdk.ch;FOC2539Y67L;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-BD-IN1.net.zhdk.ch;CAT2402L64P;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9500-48Y4C
+TAA-BD-SDA1.net.zhdk.ch;FCW2334G0YR;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9300-24UXB
+TAA-C01-00.net.zhdk.ch;FOC2730Y1D5;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C01-00.net.zhdk.ch;FOC2729Y52Z;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C01-01.net.zhdk.ch;FOC2727Y31W;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C01-01.net.zhdk.ch;FOC2734Y4SD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C01-02.net.zhdk.ch;FVH2737L85V;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C01-02.net.zhdk.ch;FOC2730YC8E;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C02-03.net.zhdk.ch;FOC2730YC8G;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C02-03.net.zhdk.ch;FOC2729Y0XP;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C03-04.net.zhdk.ch;FVH2737L8BJ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C03-04.net.zhdk.ch;FOC2730Y1D4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C03-05.net.zhdk.ch;FOC2730Y1D3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C03-05.net.zhdk.ch;FOC2713Y8WU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C03-30.net.zhdk.ch;FOC2547YCGR;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C03-30.net.zhdk.ch;FOC2734Y04R;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C03-31.net.zhdk.ch;FOC2713Y90M;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C03-31.net.zhdk.ch;FOC2713Y908;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C04-06.net.zhdk.ch;FOC2713Y7HS;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C04-06.net.zhdk.ch;FOC2713Y8V6;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C04-07.net.zhdk.ch;FOC2713Y92H;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C04-07.net.zhdk.ch;FOC2713Y4HU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C04-08.net.zhdk.ch;FOC2713Y0FN;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C04-08.net.zhdk.ch;FOC2638YSZW;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C04-08.net.zhdk.ch;FOC2638YRR4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C05-09.net.zhdk.ch;FOC2713Y04H;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C05-09.net.zhdk.ch;FOC2712Z206;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C05-10.net.zhdk.ch;FOC2713Y7J4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C05-10.net.zhdk.ch;FOC2713Y1UU;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C05-10.net.zhdk.ch;FOC2638YR92;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C06-11.net.zhdk.ch;FOC2638YSCK;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C06-11.net.zhdk.ch;FOC2713Y7N9;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C06-12.net.zhdk.ch;FOC2713Y048;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C06-12.net.zhdk.ch;FOC2713Y0JF;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C07-13.net.zhdk.ch;FOC2713Y04L;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C07-13.net.zhdk.ch;FOC2713Y04C;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C07-14.net.zhdk.ch;FOC2713Y7T7;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C07-14.net.zhdk.ch;FOC2713Y03X;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-C07-14.net.zhdk.ch;FOC2638YRKD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-CE-IN1.net.zhdk.ch;CAT2402L2FD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9500-48Y4C
+TAA-D01-15.net.zhdk.ch;FOC2727Y2ZR;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D01-15.net.zhdk.ch;FVH2737L85S;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D01-32.net.zhdk.ch;FOC2730Y1CD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D01-32.net.zhdk.ch;FVH2737L880;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-16.net.zhdk.ch;FOC2729Y0XM;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-16.net.zhdk.ch;FVH2737L87W;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-17.net.zhdk.ch;FVH2737L8AX;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-17.net.zhdk.ch;FOC2727Y59V;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-17.net.zhdk.ch;FOC2542Y5ER;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-18.net.zhdk.ch;FOC2713Y4U9;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-18.net.zhdk.ch;FOC2713Y4YW;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-31.net.zhdk.ch;FOC2730YC6D;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-31.net.zhdk.ch;FOC2733Y01D;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D03-31.net.zhdk.ch;FOC2542Y5J8;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D04-19.net.zhdk.ch;FOC2728YG7L;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D04-19.net.zhdk.ch;FOC2730YBTC;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D04-19.net.zhdk.ch;FOC2542Y5LX;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D04-21.net.zhdk.ch;FVH2737L854;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D04-21.net.zhdk.ch;FOC2543YN41;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D04-21.net.zhdk.ch;FOC2542Y5H3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D05-22.net.zhdk.ch;FOC2713Y5WH;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D05-22.net.zhdk.ch;FVH2737L88X;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D05-22.net.zhdk.ch;FOC2542Y5FS;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D05-23.net.zhdk.ch;FOC2712Z0HJ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D05-23.net.zhdk.ch;FOC2713Y4LX;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D05-28.net.zhdk.ch;FVH2737L829;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D05-28.net.zhdk.ch;FOC2733Y2AK;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D06-24.net.zhdk.ch;FVH2737L8C1;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D06-24.net.zhdk.ch;FVH2737L828;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D06-25.net.zhdk.ch;FVH2737L8UM;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D06-25.net.zhdk.ch;FVH2737L8UN;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D06-25.net.zhdk.ch;FOC2542Y5GD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D07-26.net.zhdk.ch;FVH2737L8US;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D07-26.net.zhdk.ch;FVH2737L874;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D07-27.net.zhdk.ch;FOC2712Z0NT;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D07-27.net.zhdk.ch;FVH2737L82D;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-D07-27.net.zhdk.ch;FOC2542Y5H0;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E01-15.net.zhdk.ch;FVH2737L85M;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E03-17.net.zhdk.ch;FVH2737L84K;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E03-17.net.zhdk.ch;FOC2638YRQA;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E03-18.net.zhdk.ch;FOC2638YS7D;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E03-18.net.zhdk.ch;FOC2638YS3V;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E03-19.net.zhdk.ch;FOC2713Y8XQ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E03-19.net.zhdk.ch;FVH2737L859;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E03-19.net.zhdk.ch;FOC2638YMS7;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-20.net.zhdk.ch;FOC2713Y90C;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-20.net.zhdk.ch;FOC2713Y8X2;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-21.net.zhdk.ch;FOC2547Y4L1;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-21.net.zhdk.ch;FOC2547Y4GW;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-21.net.zhdk.ch;FOC2543Z0U7;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-22.net.zhdk.ch;FOC2547Y4L2;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-22.net.zhdk.ch;FOC2547Y49T;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-23.net.zhdk.ch;FOC2547Y4G8;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-23.net.zhdk.ch;FOC2547Y4G3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E04-23.net.zhdk.ch;FOC2547Y4GB;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E05-24.net.zhdk.ch;FVH2737L847;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E05-24.net.zhdk.ch;FOC2547Y3TJ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E05-25.net.zhdk.ch;FOC2544YS3U;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E05-25.net.zhdk.ch;FOC2544YSCE;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E06-26.net.zhdk.ch;FOC2541YGC0;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E06-26.net.zhdk.ch;FOC2547Y4FZ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E06-27.net.zhdk.ch;FOC2547Y4MA;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E06-27.net.zhdk.ch;FOC2544YSL4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E07-28.net.zhdk.ch;FOC2547Y4HH;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-E07-28.net.zhdk.ch;FOC2547Y4G2;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-I01-29.net.zhdk.ch;FOC2712Z0LA;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-I01-33.net.zhdk.ch;FOC2713Y932;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-I01-34.net.zhdk.ch;FOC2713Y7RJ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-K03-20.net.zhdk.ch;FOC2544YKE1;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-M01-29.net.zhdk.ch;FOC2547Y3TK;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-M01-29.net.zhdk.ch;FOC2547Y3U2;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-M01-29.net.zhdk.ch;FOC2547Y443;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-RZ-201.net.zhdk.ch;FOC2712Z0MZ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-RZ-202.net.zhdk.ch;FOC2547YDSA;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9300-48UXM
+TAA-RZ-P1.net.zhdk.ch;FCW2339A28E;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9500-24Q
+TAA-RZ-P2.net.zhdk.ch;FCW2339A28K;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;installed;Catalyst 9500-24Q
+TAA-S03-28.net.zhdk.ch;FOC2712Z0G3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-S03-28.net.zhdk.ch;FOC2713Y93K;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-S03-28.net.zhdk.ch;FOC2638YLJ3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T01-10.net.zhdk.ch;FOC2547YCGD;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T02-27.net.zhdk.ch;FOC2713Y93D;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T02-27.net.zhdk.ch;FOC2712Z0H6;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T03-26.net.zhdk.ch;FOC2712Z0G0;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T04-11.net.zhdk.ch;FVH2737L84Q;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T04-11.net.zhdk.ch;FVH2737L85Y;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T04-12.net.zhdk.ch;FOC2547Y4KQ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T04-12.net.zhdk.ch;FOC2547Y4LY;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T05-13.net.zhdk.ch;FVH2740L0FK;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T05-13.net.zhdk.ch;FVH2740L0KJ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T05-13.net.zhdk.ch;FVH2740L0E4;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T05-14.net.zhdk.ch;FOC2544YSES;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T05-14.net.zhdk.ch;FOC2547Y4KW;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T06-15.net.zhdk.ch;FVH2737L840;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T06-15.net.zhdk.ch;FVH2737L8UP;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T06-15.net.zhdk.ch;FVH2740L0G3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T07-16.net.zhdk.ch;FOC2547Y4H5;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T07-16.net.zhdk.ch;FOC2543YQ25;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T07-17.net.zhdk.ch;FVH2740L0ET;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T07-17.net.zhdk.ch;FVH2740L0FA;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T08-18.net.zhdk.ch;FVH2740L0K3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T08-18.net.zhdk.ch;FVH2737L843;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T08-19.net.zhdk.ch;FVH2737L83X;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T08-19.net.zhdk.ch;FOC2734Y04Q;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T08-19.net.zhdk.ch;FOC2733Y1NR;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T09-20.net.zhdk.ch;FOC2730YCatalyst 9M;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T09-20.net.zhdk.ch;FVH2737L83V;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T09-21.net.zhdk.ch;FOC2713Y8XB;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T09-21.net.zhdk.ch;FOC2726YHY3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T10-22.net.zhdk.ch;FOC2712Z0H9;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T10-22.net.zhdk.ch;FOC2712Z0EM;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T10-23.net.zhdk.ch;FOC2544YAVB;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T10-23.net.zhdk.ch;FOC2544Y9D0;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T10-23.net.zhdk.ch;FOC2638YRD3;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T10-30.net.zhdk.ch;FOC2713Y7WT;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T10-30.net.zhdk.ch;FOC2713Y93C;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T11-24.net.zhdk.ch;FOC2713Y92C;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T11-24.net.zhdk.ch;FOC2547YDHX;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T11-25.net.zhdk.ch;FOC2544YH2N;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T11-25.net.zhdk.ch;FOC2547YCGG;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T11-25.net.zhdk.ch;FOC2638YS4R;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
+TAA-T11-31.net.zhdk.ch;FOC2713Y8VJ;FALSE;FALSE;ITZ-Network;ITZ-Network;Toni-Areal (TONI);Unbekannter Raum;inStorage;Catalyst 9300-48UXM
