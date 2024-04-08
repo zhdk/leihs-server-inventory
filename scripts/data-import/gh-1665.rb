@@ -34,7 +34,7 @@ IMPORT_FILE_ITEMS = "/tmp/leihs-scripts/items-import.csv"
 # ------------------------------------------------------------------
 
 # set this from "test-" to "" for production/stage
-PREFIX_WITH_DASH_FOR_TEST_ENTRIES = "test-"
+PREFIX_WITH_DASH_FOR_TEST_ENTRIES = ""
 
 PROPERTY_KEY_INSTALLATION_STATUS = "installation_status"
 DEFAULT_RETIRED_REASON = "retired"
