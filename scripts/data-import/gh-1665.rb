@@ -99,9 +99,20 @@ def import_models_from_csv(error_map)
     model_attributes = gen_model_attributes(row)
 
     begin
-      Model.create(model_attributes).save!
+      puts ">>?? model_attributes: #{model_attributes[:product]}"
+      model = Model.find_by_name(model_attributes[:product])
+      # puts ">> model: #{model}"
+
+
+
+      if model.nil?
+        Model.create(model_attributes).save!
+      else
+        puts "CAUTION: Model already exists: #{model_attributes[:product]}, description: #{model_attributes[:description]}"
+      end
+
     rescue => e
-      error_map["model/#{model_attributes[:product]}"] = {'detail:': row, 'data': model_attributes, 'error': e.message }
+      error_map["model/#{model_attributes[:product]}"] = { 'detail:': row, 'data': model_attributes, 'error': e.message }
     end
   end
 end
@@ -111,7 +122,6 @@ def extract_building_name_and_code(building_name)
 
   building_name_extracted = nil
   building_code_extracted = nil
-
 
   if building_name.include? ' ('
     building_name_extracted = building_name.match(/^(.*)\s\((.*)\)$/)[1]
@@ -168,10 +178,6 @@ def gen_item_attributes(row)
   building_name = row[ItemKeys::BUILDING]
   building_code_extracted, building_name_extracted = extract_building_name_and_code(building_name)
 
-
-
-
-
   building_rec = nil
   begin
     if building_code_extracted.nil?
@@ -182,14 +188,6 @@ def gen_item_attributes(row)
   rescue => e
     raise "#{building_name}: Building not found by name! Building.name='{building_name}' not found!"
   end
-
-
-
-
-
-
-
-
 
   room_rec = nil
   begin
@@ -273,3 +271,4 @@ def import_models_and_items
 end
 
 import_models_and_items
+
