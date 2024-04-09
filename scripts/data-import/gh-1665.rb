@@ -61,8 +61,8 @@ module ItemKeys
 end
 
 def to_bool(str, row, info)
-  puts "row[#{info}]: >#{row}<"
-  puts "str[#{info}]: >#{str}<"
+  # puts "row[#{info}]: >#{row}<"
+  # puts "str[#{info}]: >#{str}<"
 
   if str.nil?
     return nil
@@ -99,7 +99,7 @@ def import_models_from_csv(error_map)
     model_attributes = gen_model_attributes(row)
 
     begin
-      puts ">>?? model_attributes: #{model_attributes[:product]}"
+      # puts ">>?? model_attributes: #{model_attributes[:product]}"
       model = Model.find_by_name(model_attributes[:product])
       # puts ">> model: #{model}"
 
@@ -136,6 +136,10 @@ end
 
 def gen_item_attributes(row)
   model_name = "#{PREFIX_WITH_DASH_FOR_TEST_ENTRIES}#{row[ModelKeys::MODEL]}"
+
+  # puts ">> model_name: #{model_name}"
+  # puts ">> row: #{row}"
+
   if !PREFIX_WITH_DASH_FOR_TEST_ENTRIES.empty?
     log("DEV-MODE: model_name modified! model_name: #{model_name}", :warn, true)
   end
