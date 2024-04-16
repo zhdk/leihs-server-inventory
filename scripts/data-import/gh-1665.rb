@@ -2,7 +2,7 @@
 # require_relative './logger.rb'
 
 # test-server config
-require_relative('shared/logger')
+require_relative('logger')
 # require_relative('shared/parse_csv')
 require_relative('parse_csv')
 require 'date'
