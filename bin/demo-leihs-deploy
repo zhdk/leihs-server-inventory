@@ -4,14 +4,9 @@ set -euo pipefail
 INVENTORY_DIR="$(cd -- "$(dirname "${BASH_SOURCE}")" ; cd .. > /dev/null 2>&1 && pwd -P)"
 LEIHS_DIR=$INVENTORY_DIR/leihs
 
-LOCAL_CACHE_DIR_RELATIVE="${LOCAL_CACHE_DIR:-"../tmp/build_cache/"}"
-export LOCAL_CACHE_DIR="$(cd -- "$(dirname "${BASH_SOURCE}")" && mkdir -p "$LOCAL_CACHE_DIR_RELATIVE" && cd "$LOCAL_CACHE_DIR_RELATIVE" && pwd -P)"
-source $INVENTORY_DIR/scripts/prepare-build-cache
-export LOCAL_CACHE_DIR
+export HOSTS_FILE=${INVENTORY_DIR}/hosts.yml
+export HOST=demo
 
-${LEIHS_DIR}/deploy/bin/ansible-playbook \
-  -i ${INVENTORY_DIR}/hosts.yml \
-  -l demo \
-  ${LEIHS_DIR}/deploy/deploy_play.yml "$@"
+${LEIHS_DIR}/zhdk-inventory/bin/deploy "$@"
 
 # vi: ft=sh
