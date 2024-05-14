@@ -1,0 +1,1 @@
+../../../leihs/deploy/roles/execute-script/shared/logger.rb
