@@ -1,47 +1,23 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-TARGET=${TARGET:-""}
-SCRIPT=${SCRIPT:-""}
+export INVENTORY_FILE_PATH=$(realpath ./hosts.yml)
+export TARGET=${TARGET:-""}
+export SCRIPT_FILE_PATH=${SCRIPT_FILE_PATH:-""}
+export CSV_DIR_PATH=${CSV_DIR_PATH:-""}
 
 if [[ -z "$TARGET" ]]; then
   echo "TARGET must be set to test, staging or prod."
   exit 1
 fi
 
-if [[ -z "$SCRIPT" ]]; then
-  echo "SCRIPT must be set. Use relative or absolute path to the file."
-  exit 1
-else
-  SCRIPT="$(realpath $SCRIPT)"
+if [[ $TARGET == "prod" ]]; then
+  read -p "EXECUTING ON PROD! Continue? (y/n) " response
+  if [[ "$response" != "y" ]]; then
+    exit
+  fi
 fi
 
-if test $TARGET = "test"; then
-  INVENTORY=$(realpath ./leihs/zhdk-inventory/test-hosts)
-  LIMIT="zhdk"
-elif test $TARGET = "staging"; then
-  INVENTORY=$(realpath ./hosts.yml)
-  LIMIT="staging"
-elif test $TARGET = "prod"; then
-  INVENTORY=$(realpath ./hosts.yml)
-  LIMIT="prod"
-else
-  echo "Unsupported TARGET. Must be one of: test, staging, prod."
-  exit 1
-fi
-
-echo "TARGET: $TARGET"
-echo "SCRIPT: $SCRIPT"
-echo "INVENTORY: $INVENTORY"
-echo "LIMIT: $LIMIT"
-echo ""
-
-./leihs/deploy/bin/ansible-playbook \
-  $(realpath ./leihs/deploy/execute-script_play.yml) \
-  -i $INVENTORY \
-  -l $LIMIT \
-  -e "script_file_path=$SCRIPT" \
-
-echo "DONE. See log output at leihs/deploy/tmp/$LIMIT."
+./leihs/deploy/bin/execute-script
 
 # # vi: ft=sh
