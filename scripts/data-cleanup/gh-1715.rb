@@ -2,7 +2,7 @@ require_relative('shared/logger')
 require_relative('shared/parse_csv')
 # require('pry')
 
-csv_parser = CSVParser.new(ENV['IMPORT_FILE'])
+csv_parser = CSVParser.new("#{ENV['CSV_DIR_PATH']}/import.csv")
 
 class ProcurementRequest < ActiveRecord::Base
 end
