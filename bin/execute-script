@@ -32,6 +32,7 @@ fi
 
 echo "TARGET: $TARGET"
 echo "SCRIPT: $SCRIPT"
+echo "IMPORT_DIR_PATH: $IMPORT_DIR_PATH"
 echo "INVENTORY: $INVENTORY"
 echo "LIMIT: $LIMIT"
 echo ""
@@ -41,6 +42,7 @@ echo ""
   -i $INVENTORY \
   -l $LIMIT \
   -e "script_file_path=$SCRIPT" \
+  -e "import_dir_path=$IMPORT_DIR_PATH" \
 
 echo "DONE. See log output at leihs/deploy/tmp/$LIMIT."
 
