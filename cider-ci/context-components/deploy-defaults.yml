@@ -30,13 +30,6 @@ context:
           content_type: text/plain
 
       scripts:
-        unlock:
-          body: |
-            #!/usr/bin/env bash
-            set -euo pipefail
-            cd ${OLD_ZHDK_INVENTORY_DIR}
-            git crypt unlock
-
         install-ruby:
           exclusive_executor_resource: asdf-ruby
           timeout: 20 Minutes
@@ -59,9 +52,6 @@ context:
         deploy:
           timeout: 150 minutes
           start_when:
-            unlock_passed:
-              script_key: unlock
-              states: [passed]
             ruby-installed:
               script_key: install-ruby
             nodejs-installed:
