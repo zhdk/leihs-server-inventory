@@ -56,23 +56,3 @@ context:
               script_key: install-ruby
             nodejs-installed:
               script_key: install-nodejs
-
-        attach-server-log:
-          ignore_state: yes
-          ignore_abort: yes
-          start_when:
-            after deploy:
-              script_key: deploy
-              states: [passed, aborted, defective, failed]
-          body: |
-            #!/usr/bin/env bash
-            set -euo pipefail
-            export ANSIBLE_HOST_KEY_CHECKING=False
-            ${DEPLOY_DIR}/bin/ansible-playbook ${DEPLOY_DIR}/get-server-log_play.yml \
-              --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa' \
-              -i ${INVENTORY_DIR}/${DEPLOY_TARGET_INVENTORY}
-
-            echo ''; echo ''; echo '';
-            echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-            echo 'Last 100 lines of server log can be found in Trial Attachments!'
-            echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
