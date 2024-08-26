@@ -18,8 +18,6 @@ context:
 
       traits:
         asdf: true
-        git-crypt: true
-        python3: true
         zhdk-leihs-deploy: true
 
       max_trials: 1
