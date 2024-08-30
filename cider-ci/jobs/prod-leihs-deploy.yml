@@ -23,4 +23,4 @@ prod-leihs-deploy:
       deploy:
         scripts:
           deploy:
-            body: ./bin/prod-leihs-deploy --ssh-common-args='-i ~/.ssh/zhdk_ci_executor_rsa'
+            body: ./bin/prod-leihs-deploy
