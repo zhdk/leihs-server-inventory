@@ -7,7 +7,7 @@ export SCRIPT_FILE_PATH=${SCRIPT_FILE_PATH:-""}
 export CSV_DIR_PATH=${CSV_DIR_PATH:-""}
 
 if [[ -z "$TARGET" ]]; then
-  echo "TARGET must be set to test, staging or prod."
+  echo "TARGET host must be set to test, staging or prod."
   exit 1
 fi
 

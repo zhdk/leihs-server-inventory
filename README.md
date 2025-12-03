@@ -33,4 +33,10 @@ AGW-Auth Deploy
 * adjust the configuration if necessary, and
 * run `./bin/prod-agw-auth-deploy`
 
+Custom Script Execution
+-----------------------
 
+* is done with `./bin/execute_script`
+* env var `HOST_TARGET` concerns the desired host as specified in `./hosts.yml`
+* secret file must be unlocked: `./leihs/zhdk-inventory/bin/unlock` (if not, then one gets a cryptic ansible message regarding unicode)
+* logs are downloaded to `./leihs/deploy/tmp/log/$HOST_TARGET`
