@@ -1,0 +1,29 @@
+leihs_external_hostname: leihs.zhdk.ch
+ansible_host: zhdk-leihs-prod.ruby.zhdk.ch
+
+reverse_proxy_custom_config: |
+  ProxyPass /authenticators/ms-open-id/zhdkaad http://localhost:3434/authenticators/ms-open-id/zhdkaad nocanon retry=0
+  ProxyPass /zhdk-agw     http://localhost:3333/zhdk-agw	  nocanon retry=0
+
+leihs_send_mails: Yes
+
+zhdkaad_client_id: '6a35749b-1bfc-4765-95e8-336e49441390'
+
+db_backup_on_deploy: Yes
+db_backup_keep_days: 4
+db_backup_nightly_enabled: Yes
+db_backup_service_custom_extend: |
+  # Notify monitoring system, note: this must be a single line without line breaks!
+  ExecStart=curl -X POST http://10.158.0.30:5050/F098F82A-EE2C-4C5A-9A93-7887C7F27076 -H "Content-Type: application/json" -d '{"prtg": {"result": [ { "channel": "Success", "value": 1, "customUnit": "bool" } ]}}'
+
+agw_auth_external_base_url: https://ausleihe.zhdk.ch
+agw_auth_port: 3333
+agw_auth_private_key: '{{auth_system_master_private_key}}'
+agw_auth_public_key: '{{auth_system_master_public_key}}'
+agw_auth_leihs_public_key: '{{auth_system_master_public_key}}'
+agw_app_id: '{{zhdk_prod_agw_app_id}}'
+agw_app_secret: '{{zhdk_prod_agw_app_secret}}'
+
+
+zhdk_prtg_url: '{{prod_v5_sync_prtg_url}}' # set in prod hostvar, empty for deployment to test / staging environment
+zhdk_zapi_key: '{{zapi_key_prod}}'

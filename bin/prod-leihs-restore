@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+INVENTORY_DIR="$(cd -- "$(dirname "${BASH_SOURCE}")" ; cd .. > /dev/null 2>&1 && pwd -P)"
+LEIHS_DIR=$INVENTORY_DIR/leihs
+
+export HOSTS_FILE=${INVENTORY_DIR}/hosts.yml
+export HOST=prod
+
+# ${LEIHS_DIR}/zhdk-inventory/bin/unlock
+
+${LEIHS_DIR}/deploy/bin/ansible-playbook \
+  ${LEIHS_DIR}/deploy/db-restore_play.yml \
+  -i ${HOSTS_FILE} -l ${HOST} \
+  -e 'remote_pgbin_restore_path=/leihs/var/db-backups/bookworm-migration.pgbin' "$@"
+
+# vi: ft=sh
