@@ -1,6 +1,8 @@
 leihs_external_hostname: leihs.zhdk.ch
 ansible_host: zhdk-leihs-prod.ruby.zhdk.ch
 
+legacy_show_new_inventory_button: false
+
 reverse_proxy_custom_config: |
   ProxyPass /authenticators/ms-open-id/zhdkaad http://localhost:3434/authenticators/ms-open-id/zhdkaad nocanon retry=0
   ProxyPass /zhdk-agw     http://localhost:3333/zhdk-agw	  nocanon retry=0
